@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rick&Morty API</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="ajax.js" defer></script>
+    <link rel="stylesheet" href="rick&morty.css">
+</head>
+<body>
+
+    <h2>WIKI Rick & Morty</h2>
+    <div id="contenedorBuscar">
+        <input type="text" placeholder="nombre del personaje">
+        Si desea filtrar por estado marque una opcion:
+        <select>
+            <option></option>
+            <option>Alive</option>
+            <option>Dead</option>
+            <option>Unknown</option>
+        </select>
+        <button class="buscarPj">Buscar personajes</button>
+        <button class="buscarEp">Buscar episodios</button>
+    </div>
+
+    <div id="contenido">
+
+    </div>
+
+    <div id="contenidoSecundario">
+
+    </div>
+    
+</body>
+</html>
